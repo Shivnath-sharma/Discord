@@ -1,0 +1,58 @@
+.channel-sidebar {
+  width: 20%;
+  max-width: 200px;
+  background-color: #312F39;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.channel-sidebar .channels {
+  margin-top: 10px;
+}
+
+.channel-sidebar .channels h3 {
+  font-size: 1rem;
+  margin: 1rem 0 0.5rem;
+  color: #b9bbbe;
+}
+
+.channel-sidebar .channel {
+  padding: 0.5rem;
+  border-radius: 4px;
+  color: #b9bbbe;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.channel-sidebar .channel:hover {
+  background-color: #40444b;
+}
+
+
+.channel-logo-sidebar {
+  width: 70px;
+  background-color: #202029;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.channel-logo-sidebar .sidebar-profile-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  display: flex;  
+}
+
+
+

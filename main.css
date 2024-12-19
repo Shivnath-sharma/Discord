@@ -1,0 +1,26 @@
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #36383F
+}
+
+
+.chat {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat h2 {
+  margin: 0;
+  color: #ffffff;
+}
+
+.chat p{
+  width: 450px;
+}

@@ -1,0 +1,13 @@
+.header {
+  background-color: #36383F;
+  padding: 5px;
+  height: 40px ;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #2f3136;
+}
+
+.header h1 {
+  font-size: 20px;
+  margin-left: 10px;
+}
